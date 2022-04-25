@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>仿实习僧首页</title>
+  <link rel="shortcut icon" href="./shixiseng_favicon.ico" />
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <!-- <script src="./js/index.js"></script> -->
+</head>
+<style>
+</style>
+
+<body>
+    <div class="chooseCity">
+      <div class="toggleCity">
+        <span>切换城市</span>
+        <i class="close">×</i>
+      </div>
+      <div class="city_body">
+        <div class="sxs_city">
+          <div class="choose_show">
+            <label for="">当前城市</label>
+            <span>全国</span>
+          </div>
+          <div class="hot_city row">
+            <label for="">热门城市</label>
+            <div class="row">
+              <p class="city_item">北京</p>
+              <p class="city_item">上海</p>
+              <p class="city_item">广州</p>
+              <p class="city_item">深圳</p>
+              <p class="city_item">成都</p>
+              <p class="city_item">杭州</p>
+              <p class="city_item">重庆</p>
+              <p class="city_item">武汉</p>
+              <p class="city_item">西安</p>
+              <p class="city_item">苏州</p>
+              <p class="city_item">天津</p>
+              <p class="city_item">长沙</p>
+              <p class="city_item">南京</p>
+            </div>
+          </div>
+          <div class="hot_city row">
+            <label for="">更多城市</label>
+            <div class="row">
+              <p class="city_item">全国</p>
+              <p class="city_item">海外</p>
+            </div>
+          </div>
+          <div class="list">
+            <div class="hot_city row">
+              <label for="">华南区域</label>
+              <div class="row">
+                <p class="city_item">广东</p>
+                <p class="city_item">福建</p>
+                <p class="city_item">广西</p>
+                <p class="city_item">江西</p>
+                <p class="city_item">海南</p>
+                <p class="city_item">香港</p>
+                <p class="city_item">澳门</p>
+                <p class="city_item">台湾</p>
+              </div>
+            </div>
+            <div class="hot_city row">
+              <label for="">华西区域</label>
+              <div class="row">
+                <p class="city_item">四川</p>
+                <p class="city_item">云南</p>
+                <p class="city_item">甘肃</p>
+                <p class="city_item">宁夏</p>
+                <p class="city_item">贵州</p>
+                <p class="city_item">陕西</p>
+                <p class="city_item">青海</p>
+                <p class="city_item">西藏</p>
+                <p class="city_item">新疆</p>
+                <p class="city_item">重庆市</p>
+              </div>
+            </div>
+            <div class="hot_city row">
+              <label for="">华东区域</label>
+              <div class="row">
+                <p class="city_item">上海市</p>
+                <p class="city_item">浙江</p>
+                <p class="city_item">江苏</p>
+                <p class="city_item">安徽</p>
+              </div>
+            </div>
+            <div class="hot_city row">
+              <label for="">华北区域</label>
+              <div class="row">
+                <p class="city_item">北京市</p>
+                <p class="city_item">天津市</p>
+                <p class="city_item">河北</p>
+                <p class="city_item">辽宁</p>
+                <p class="city_item">黑龙江</p>
+                <p class="city_item">吉林</p>
+                <p class="city_item">山东</p>
+                <p class="city_item">山西</p>
+                <p class="city_item">内蒙古</p>
+              </div>
+            </div>
+            <div class="hot_city row">
+              <label for="">华中区域</label>
+              <div class="row">
+                <p class="city_item">湖北</p>
+                <p class="city_item">河南</p>
+                <p class="city_item">湖南</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div></div>
+  <!-- 头部 -->
+  <header>
+    <div class="logo">
+      <a href="https://www.shixiseng.com/" target="_blank">
+        <img src="https://sxsimg.xiaoyuanzhao.com/static_sxs/dist/desktop/dist/client/img/logo-shixiseng.ea8da47.png" alt=""></a>
+    </div>
+    <ul>
+      <li>全国<span class="city"> [切换]</span></li>
+      <li>首页</li>
+      <li>校招<img src="https://sxsimg.xiaoyuanzhao.com/static_sxs/dist/desktop/dist/client/img/icon-new.fd1130a.svg" alt=""></li>
+      <li>实习僧TV<img src="https://sxsimg.xiaoyuanzhao.com/static_sxs/dist/desktop/dist/client/img/icon-hot.773d2a0.svg"></li>
+      <li>实习僧教育</li>
+    </ul>
+    <div class="topRight">
+      <span>消息</span>
+      <a href="https://www.shixiseng.com/app/download" target="_blank"><span>APP下载</span></a>
+      <button>企业入口</button>
+    </div>
+  </header>
+  <!-- 固定顶部的搜索框 -->
+  <div class="fixed">
+    <div class="fixed_01">
+      <div class="logo">
+        <a href="https://www.shixiseng.com/" target="_blank">
+          <img src="./images/logo2.png" alt=""></a>
+      </div>
+      <div class="city">
+        <i>全国</i>
+        <span>[切换]</span>
+      </div>
+      <div class="search">
+        <div class="search_1">
+          实习&nbsp;
+        </div>
+        <input type="text" placeholder="请输入期望的实习岗位、公司">
+        <button>搜索</button>
+      </div>
+    </div>
+  </div>
+  <!-- 调查问卷及登录区 -->
+  <div class="banner">
+    <div>
+      <div class="bannerRight">
+        <div class="erweima">
+          <div class="saoma" id="saoma">
+            <p>二维码已过期</p><button id="reset">重新获取</button></div>
+          <img src="./images/erweima.png" alt="">
+          <span>微信扫码登录</span>
+        </div>
+        <div class="fr_01">
+          <span>其他方式</span>
+          <a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;短信登录</a>
+          <a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码登录</a>
+          <a href=""><img src="./images/weibo.png" alt="">&nbsp;&nbsp;微博登录</a>
+          <a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QQ登录</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 左边盒子放数据 右边是搜索 -->
+  <nav>
+    <div class="navLeft">
+      <div class="spirit">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <span>共计1853180个热门职位等着你</span>
+    </div>
+    <div class="navRight">
+      <div class="search">
+        <div class="search_1">
+          实习&nbsp;
+        </div>
+        <input type="text" placeholder="请输入期望的实习岗位、公司">
+        <button>搜索</button>
+      </div>
+      <div class="hot">
+        <span class="hotsearch">热门搜索:</span>
+        <a href="">
+          <ul>
+            <li>市场</li>
+            <li>银行</li>
+            <li>财会</li>
+            <li>运营</li>
+            <li>新媒体</li>
+            <li>UI设计</li>
+            <li>行政</li>
+            <li>项目</li>
+          </ul>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <div class="sidebar">
+    <div class="first"><img src="./images/right-resume.46e1091.png" alt=""><a href="">简历</a></div>
+    <div><img src="./images/jianli.png" alt=""><a href="">投递</a></div>
+    <div><img src="./images/jianli.png" alt=""><a href="">客服</a></div>
+    <div class="goback"><img src="./images/jianli.png" alt=""><span>TOP</span></div>
+  </div>
+  <main>
+    <!-- 侧边栏是一个大盒子，用li布局，相对定位，箭头绝对定位，li里是a，a里是span，第一个span设置单独字体和颜色 -->
+    <aside>
+      <ul class="aside">
+        <li>全部分类<img src="./images/lbtn.png" class="l_1"><img src="./images/rbtn.png" class="r_11"></li>
+        <li class="lis"><a href="#" target="_blank"><span>互联网/IT</span><span>产品</span><span>运营</span><span>技术</span></a><i></i><div
+            class="fenlei"><a><span>产品</span></a><a>产品</a><a>产品助理</a><a>用户研究</a><a>游戏策划</a><a>安全产品经理</a><a>策略产品经理</a><a>电商产品经理</a><a>供应链产品经理</a><a>软件产品经理</a><a>商业化产品经理</a><a>数据产品经理</a>
+            <a>网页产品经理</a><a>增长产品经理</a><a>移动产品经理</a>
+            <a>硬件产品经理</a><a>金融产品经理</a><a>产品经理</a><a>产品设计</a><a>产品项目</a><a>管理游戏</a><div><a><span>运营</span></a><a>运营</a><a>产品运营</a><a>内容运营</a>
+              <a>网站编辑</a><a>客服</a><a>SEO/SEM</a><a>电商运营</a>
+              <a>活动运营</a><a>数据运营</a><a>社群运营</a><a>新媒体运营</a><a>游戏运营</a><a>海外运营</a><a>品类运营</a><a>用户运营</a><a> COO网站运营</a><a>编辑</a></div><a><span>技术</span></a><a>技术</a><a>测试</a><a>前端</a><a>IT</a><a>运维</a><a>数据库</a><a算法></a><a>数据挖掘</a><a>云计算/大数据</a><a>后端技术管理</a><a>移动开发</a><a>通信技术</a><a>信息安全</a><a>销售技术支持</a>
+              <a>数据分析</a><a>架构师</a><div><a><span>软</span></a>
+                <a>软件</a><a>C#/.NET</a><a>Android</a><a>C/C++</a><a>iOS</a><a>JavaNode.js</a><a>PHP</a><a>Python</a><a>Ruby/Perl</a><a>ERP</a><a>Linux</a><a>
+                  Hadoop</a><a>PLC</a></div>
+          </div>
+          </div>
+        </li>
+        <li class="lis"><a href="#" target="_blank"><span>通信硬件</span><span>电子电气</span><span>通信</span></a><i></i><div class="fenlei"><a><span>产品</span></a><a>产品</a><a>产品助理</a><a>用户研究</a><a>游戏策划</a><a>安全产品经理</a><a>策略产品经理</a><a>电商产品经理</a><a>供应链产品经理</a><a>软件产品经理</a><a>商业化产品经理</a><a>数据产品经理</a>
+            <a>网页产品经理</a><a>增长产品经理</a><a>移动产品经理</a>
+            <a>硬件产品经理</a><a>金融产品经理</a><a>产品经理</a><a>产品设计</a><a>产品项目</a><a>管理游戏</a><div><a><span>运营</span></a><a>运营</a><a>产品运营</a><a>内容运营</a>
+              <a>网站编辑</a><a>客服</a><a>SEO/SEM</a><a>电商运营</a>
+              <a>活动运营</a><a>数据运营</a><a>社群运营</a><a>新媒体运营</a><a>游戏运营</a><a>海外运营</a><a>品类运营</a><a>用户运营</a><a> COO网站运营</a><a>编辑</a></div><a><span>技术</span></a><a>技术</a><a>测试</a><a>前端</a><a>IT</a><a>运维</a><a>数据库</a><a算法></a><a>数据挖掘</a><a>云计算/大数据</a><a>后端技术管理</a><a>移动开发</a><a>通信技术</a><a>信息安全</a><a>销售技术支持</a>
+              <a>数据分析</a><a>架构师</a><div><a><span>软</span></a>
+                <a>软件</a><a>C#/.NET</a><a>Android</a><a>C/C++</a><a>iOS</a><a>JavaNode.js</a><a>PHP</a><a>Python</a><a>Ruby/Perl</a><a>ERP</a><a>Linux</a><a>
+                  Hadoop</a><a>PLC</a></div>
+          </div>
+          </div>
+        </li>
+        <li class="lis"><a href="#" target="_blank"><span>设计/传媒</span><span>设计</span><span>广告展览</span></a><i></i><div class="fenlei"><a><span>产品</span></a><a>产品</a><a>产品助理</a><a>用户研究</a><a>游戏策划</a><a>安全产品经理</a><a>策略产品经理</a><a>电商产品经理</a><a>供应链产品经理</a><a>软件产品经理</a><a>商业化产品经理</a><a>数据产品经理</a>
+            <a>网页产品经理</a><a>增长产品经理</a><a>移动产品经理</a>
+            <a>硬件产品经理</a><a>金融产品经理</a><a>产品经理</a><a>产品设计</a><a>产品项目</a><a>管理游戏</a><div><a><span>运营</span></a><a>运营</a><a>产品运营</a><a>内容运营</a>
+              <a>网站编辑</a><a>客服</a><a>SEO/SEM</a><a>电商运营</a>
+              <a>活动运营</a><a>数据运营</a><a>社群运营</a><a>新媒体运营</a><a>游戏运营</a><a>海外运营</a><a>品类运营</a><a>用户运营</a><a> COO网站运营</a><a>编辑</a></div><a><span>技术</span></a><a>技术</a><a>测试</a><a>前端</a><a>IT</a><a>运维</a><a>数据库</a><a算法></a><a>数据挖掘</a><a>云计算/大数据</a><a>后端技术管理</a><a>移动开发</a><a>通信技术</a><a>信息安全</a><a>销售技术支持</a>
+              <a>数据分析</a><a>架构师</a><div><a><span>软</span></a>
+                <a>软件</a><a>C#/.NET</a><a>Android</a><a>C/C++</a><a>iOS</a><a>JavaNode.js</a><a>PHP</a><a>Python</a><a>Ruby/Perl</a><a>ERP</a><a>Linux</a><a>
+                  Hadoop</a><a>PLC</a></div>
+          </div>
+          </div>
+        </li>
+        <li class="lis"><a href="#" target="_blank"><span>通用职能</span><span>行政</span><span>人力资源</span><span>财会</span></a><i></i><div
+            class="fenlei"><a><span>产品</span></a><a>产品</a><a>产品助理</a><a>用户研究</a><a>游戏策划</a><a>安全产品经理</a><a>策略产品经理</a><a>电商产品经理</a><a>供应链产品经理</a><a>软件产品经理</a><a>商业化产品经理</a><a>数据产品经理</a>
+            <a>网页产品经理</a><a>增长产品经理</a><a>移动产品经理</a>
+            <a>硬件产品经理</a><a>金融产品经理</a><a>产品经理</a><a>产品设计</a><a>产品项目</a><a>管理游戏</a><div><a><span>运营</span></a><a>运营</a><a>产品运营</a><a>内容运营</a>
+              <a>网站编辑</a><a>客服</a><a>SEO/SEM</a><a>电商运营</a>
+              <a>活动运营</a><a>数据运营</a><a>社群运营</a><a>新媒体运营</a><a>游戏运营</a><a>海外运营</a><a>品类运营</a><a>用户运营</a><a> COO网站运营</a><a>编辑</a></div><a><span>技术</span></a><a>技术</a><a>测试</a><a>前端</a><a>IT</a><a>运维</a><a>数据库</a><a算法></a><a>数据挖掘</a><a>云计算/大数据</a><a>后端技术管理</a><a>移动开发</a><a>通信技术</a><a>信息安全</a><a>销售技术支持</a>
+              <a>数据分析</a><a>架构师</a><div><a><span>软</span></a>
+                <a>软件</a><a>C#/.NET</a><a>Android</a><a>C/C++</a><a>iOS</a><a>JavaNode.js</a><a>PHP</a><a>Python</a><a>Ruby/Perl</a><a>ERP</a><a>Linux</a><a>
+                  Hadoop</a><a>PLC</a></div>
+          </div>
+          </div>
+        </li>
+        <li class="lis"><a href="#" target="_blank"><span>金融/法务</span><span>金融</span><span>保险</span><span>银行</span></a><i></i><div
+            class="fenlei"><a><span>产品</span></a><a>产品</a><a>产品助理</a><a>用户研究</a><a>游戏策划</a><a>安全产品经理</a><a>策略产品经理</a><a>电商产品经理</a><a>供应链产品经理</a><a>软件产品经理</a><a>商业化产品经理</a><a>数据产品经理</a>
+            <a>网页产品经理</a><a>增长产品经理</a><a>移动产品经理</a>
+            <a>硬件产品经理</a><a>金融产品经理</a><a>产品经理</a><a>产品设计</a><a>产品项目</a><a>管理游戏</a><div><a><span>运营</span></a><a>运营</a><a>产品运营</a><a>内容运营</a>
+              <a>网站编辑</a><a>客服</a><a>SEO/SEM</a><a>电商运营</a>
+              <a>活动运营</a><a>数据运营</a><a>社群运营</a><a>新媒体运营</a><a>游戏运营</a><a>海外运营</a><a>品类运营</a><a>用户运营</a><a> COO网站运营</a><a>编辑</a></div><a><span>技术</span></a><a>技术</a><a>测试</a><a>前端</a><a>IT</a><a>运维</a><a>数据库</a><a算法></a><a>数据挖掘</a><a>云计算/大数据</a><a>后端技术管理</a><a>移动开发</a><a>通信技术</a><a>信息安全</a><a>销售技术支持</a>
+              <a>数据分析</a><a>架构师</a><div><a><span>软</span></a>
+                <a>软件</a><a>C#/.NET</a><a>Android</a><a>C/C++</a><a>iOS</a><a>JavaNode.js</a><a>PHP</a><a>Python</a><a>Ruby/Perl</a><a>ERP</a><a>Linux</a><a>
+                  Hadoop</a><a>PLC</a></div>
+          </div>
+          </div>
+        </li>
+        <li class="lis"><a href="#" target="_blank"><span>生产制造</span><span>制造</span><span>机械</span></a><i></i><div class="fenlei"><a><span>产品</span></a><a>产品</a><a>产品助理</a><a>用户研究</a><a>游戏策划</a><a>安全产品经理</a><a>策略产品经理</a><a>电商产品经理</a><a>供应链产品经理</a><a>软件产品经理</a><a>商业化产品经理</a><a>数据产品经理</a>
+            <a>网页产品经理</a><a>增长产品经理</a><a>移动产品经理</a>
+            <a>硬件产品经理</a><a>金融产品经理</a><a>产品经理</a><a>产品设计</a><a>产品项目</a><a>管理游戏</a><div><a><span>运营</span></a><a>运营</a><a>产品运营</a><a>内容运营</a>
+              <a>网站编辑</a><a>客服</a><a>SEO/SEM</a><a>电商运营</a>
+              <a>活动运营</a><a>数据运营</a><a>社群运营</a><a>新媒体运营</a><a>游戏运营</a><a>海外运营</a><a>品类运营</a><a>用户运营</a><a> COO网站运营</a><a>编辑</a></div><a><span>技术</span></a><a>技术</a><a>测试</a><a>前端</a><a>IT</a><a>运维</a><a>数据库</a><a算法></a><a>数据挖掘</a><a>云计算/大数据</a><a>后端技术管理</a><a>移动开发</a><a>通信技术</a><a>信息安全</a><a>销售技术支持</a>
+              <a>数据分析</a><a>架构师</a><div><a><span>软</span></a>
+                <a>软件</a><a>C#/.NET</a><a>Android</a><a>C/C++</a><a>iOS</a><a>JavaNode.js</a><a>PHP</a><a>Python</a><a>Ruby/Perl</a><a>ERP</a><a>Linux</a><a>
+                  Hadoop</a><a>PLC</a></div>
+          </div>
+        </li>
+        <li class="lis"><a href="#" target="_blank"><span>商务/贸易</span><span>公关媒介</span><span>市场商务</span></a><i></i><div class="fenlei"><a><span>产品</span></a><a>产品</a><a>产品助理</a><a>用户研究</a><a>游戏策划</a><a>安全产品经理</a><a>策略产品经理</a><a>电商产品经理</a><a>供应链产品经理</a><a>软件产品经理</a><a>商业化产品经理</a><a>数据产品经理</a>
+            <a>网页产品经理</a><a>增长产品经理</a><a>移动产品经理</a>
+            <a>硬件产品经理</a><a>金融产品经理</a><a>产品经理</a><a>产品设计</a><a>产品项目</a><a>管理游戏</a><div><a><span>运营</span></a><a>运营</a><a>产品运营</a><a>内容运营</a>
+              <a>网站编辑</a><a>客服</a><a>SEO/SEM</a><a>电商运营</a>
+              <a>活动运营</a><a>数据运营</a><a>社群运营</a><a>新媒体运营</a><a>游戏运营</a><a>海外运营</a><a>品类运营</a><a>用户运营</a><a> COO网站运营</a><a>编辑</a></div><a><span>技术</span></a><a>技术</a><a>测试</a><a>前端</a><a>IT</a><a>运维</a><a>数据库</a><a算法></a><a>数据挖掘</a><a>云计算/大数据</a><a>后端技术管理</a><a>移动开发</a><a>通信技术</a><a>信息安全</a><a>销售技术支持</a>
+              <a>数据分析</a><a>架构师</a><div><a><span>软</span></a>
+                <a>软件</a><a>C#/.NET</a><a>Android</a><a>C/C++</a><a>iOS</a><a>JavaNode.js</a><a>PHP</a><a>Python</a><a>Ruby/Perl</a><a>ERP</a><a>Linux</a><a>
+                  Hadoop</a><a>PLC</a></div>
+          </div>
+        </li>
+        <li class="lis"><a href="#" target="_blank"><span>教育培训</span><span>教学支持</span><span>教师</span><span>翻译</span></a><i></i><div
+            class="fenlei"><a><span>产品</span></a><a>产品</a><a>产品助理</a><a>用户研究</a><a>游戏策划</a><a>安全产品经理</a><a>策略产品经理</a><a>电商产品经理</a><a>供应链产品经理</a><a>软件产品经理</a><a>商业化产品经理</a><a>数据产品经理</a>
+            <a>网页产品经理</a><a>增长产品经理</a><a>移动产品经理</a>
+            <a>硬件产品经理</a><a>金融产品经理</a><a>产品经理</a><a>产品设计</a><a>产品项目</a><a>管理游戏</a><div><a><span>运营</span></a><a>运营</a><a>产品运营</a><a>内容运营</a>
+              <a>网站编辑</a><a>客服</a><a>SEO/SEM</a><a>电商运营</a>
+              <a>活动运营</a><a>数据运营</a><a>社群运营</a><a>新媒体运营</a><a>游戏运营</a><a>海外运营</a><a>品类运营</a><a>用户运营</a><a> COO网站运营</a><a>编辑</a></div><a><span>技术</span></a><a>技术</a><a>测试</a><a>前端</a><a>IT</a><a>运维</a><a>数据库</a><a算法></a><a>数据挖掘</a><a>云计算/大数据</a><a>后端技术管理</a><a>移动开发</a><a>通信技术</a><a>信息安全</a><a>销售技术支持</a>
+              <a>数据分析</a><a>架构师</a><div><a><span>软</span></a>
+                <a>软件</a><a>C#/.NET</a><a>Android</a><a>C/C++</a><a>iOS</a><a>JavaNode.js</a><a>PHP</a><a>Python</a><a>Ruby/Perl</a><a>ERP</a><a>Linux</a><a>
+                  Hadoop</a><a>PLC</a></div>
+          </div>
+        </li>
+        <li class="lis"><a href="#" target="_blank"><span>生物医疗</span><span>医疗护理</span><span>生物制药</span></a><i></i><div class="fenlei"><a><span>产品</span></a><a>产品</a><a>产品助理</a><a>用户研究</a><a>游戏策划</a><a>安全产品经理</a><a>策略产品经理</a><a>电商产品经理</a><a>供应链产品经理</a><a>软件产品经理</a><a>商业化产品经理</a><a>数据产品经理</a>
+            <a>网页产品经理</a><a>增长产品经理</a><a>移动产品经理</a>
+            <a>硬件产品经理</a><a>金融产品经理</a><a>产品经理</a><a>产品设计</a><a>产品项目</a><a>管理游戏</a><div><a><span>运营</span></a><a>运营</a><a>产品运营</a><a>内容运营</a>
+              <a>网站编辑</a><a>客服</a><a>SEO/SEM</a><a>电商运营</a>
+              <a>活动运营</a><a>数据运营</a><a>社群运营</a><a>新媒体运营</a><a>游戏运营</a><a>海外运营</a><a>品类运营</a><a>用户运营</a><a> COO网站运营</a><a>编辑</a></div><a><span>技术</span></a><a>技术</a><a>测试</a><a>前端</a><a>IT</a><a>运维</a><a>数据库</a><a算法></a><a>数据挖掘</a><a>云计算/大数据</a><a>后端技术管理</a><a>移动开发</a><a>通信技术</a><a>信息安全</a><a>销售技术支持</a>
+              <a>数据分析</a><a>架构师</a><div><a><span>软</span></a>
+                <a>软件</a><a>C#/.NET</a><a>Android</a><a>C/C++</a><a>iOS</a><a>JavaNode.js</a><a>PHP</a><a>Python</a><a>Ruby/Perl</a><a>ERP</a><a>Linux</a><a>
+                  Hadoop</a><a>PLC</a></div>
+          </div>
+        </li>
+
+      </ul>
+    </aside>
+    <!-- 用一个大盒子包裹轮播图和下面的实习模块，下面实习模块用li布局，用了overflow无法把超出的部分隐藏，只能在ul的宽度上加了一些距离 -->
+    <section>
+      <div class="lun">
+        <div class="lunImg">
+          <img src="./images/b1.png" alt="">
+          <img src="./images/b2.jpg" alt="">
+          <img src="./images/b3.jpg" alt="">
+          <img src="./images/b4.jpg" alt="">
+          <img src="./images/b5.png" alt="">
+          <img src="./images/b6.jpg" alt="">
+          <img src="./images/b7.png" alt="">
+          <img src="./images/b8.png" alt="">
+          <img src="./images/b9.jpg" alt="">
+        </div>
+        <ul class="lunBottom">
+          <li style="background-color:black">优衣库</li>
+          <li>留学生春招</li>
+          <li>海信</li>
+          <li>雅诗兰黛</li>
+          <li>酷盖专场</li>
+          <li>欧莱雅百库</li>
+          <li>大厂暑期实习</li>
+          <li>奔驰</li>
+          <li>暑期实习调研</li>
+        </ul>
+      </div>
+      <ul class="shixi">
+        <li><img src="https://sxsimg.xiaoyuanzhao.com/adservice/image/20220307115135WYXxqabmm6C9iqbs5m.jpg" alt=""><div><span>PatPat</span><i>春季校园招聘</i></div>
+        </li>
+        <li><img src="https://sxsimg.xiaoyuanzhao.com/adservice/image/20220420163800BvowruCOYM1yMVYZTb.png" alt=""><div><span>思拓凡</span><i>暑期实习</i></div>
+        </li>
+        <li><img src="https://sxsimg.xiaoyuanzhao.com/adservice/image/20220415160934CBwexfwJkdNZiR9mqi.png" alt=""><div><span>奔驰</span><i>暑期实习</i></div>
+        </li>
+        <li><img src="https://sxsimg.xiaoyuanzhao.com/adservice/image/20220419152000q6AT7NXivnI6A1Vegn.png" alt=""><div><span>雅诗兰黛集团</span><i>暑期实习</i></div>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <!-- 迷你企业以及小banner -->
+  <article>
+    <!-- 迷你企业 -->
+    <ul class="qiye">
+      <li><img src="https://sxsimg.xiaoyuanzhao.com/adservice/image/20220311144600vYtXMsM4PFsJD3PUlC.jpg" alt=""><i>中植基金</i><span><p>中植基金</p><i>校园招聘职等你来</i></span></li>
+      <li><img src="https://sxsimg.xiaoyuanzhao.com/adservice/image/2022033116295697q1zLfNPgcxm80g8d.png" alt=""><i>红杉中国</i><span><p>红杉中国</p><i>2022红杉联合春招</i></span></li>
+      <li><img src="https://sxsimg.xiaoyuanzhao.com/adservice/image/20220311155506vlAvH8cJz1NfmWy1g9.png" alt=""><i>完美世界</i><span><p>完美世界</p><i>校园招聘</i></span></li>
+      <li><img src="https://sxsimg.xiaoyuanzhao.com/adservice/image/20220418173126KLi392eJ8ZY59xLRfi.png" alt=""><i>华晨宝马</i><span><p>华晨宝马</p><i>校园招聘</i></span></li>
+      <li><img src="https://sxsimg.xiaoyuanzhao.com/adservice/image/20220311151221E5tUKtvoN4yUvQmbPF.jpg" alt=""><i>智已汽车</i><span><p>智已汽车</p><i>2022校园招聘</i></span></li>
+      <li><img src="https://sxsimg.xiaoyuanzhao.com/adservice/image/20220418005519BCz7rx89ahHQtclN8H.png" alt=""><i>联想集团</i><span><p>联想集团</p><i>业务遍及180个市场的全球化科技公司</i></span></li>
+      <li><img src="https://sxsimg.xiaoyuanzhao.com/adservice/image/20210830180015ztcL6gX1kRTFGHIpqT.jpg" alt=""><i>优衣库</i><span><p>优衣库</p><i>世界著名的零售控股企业集团</i></span></li>
+      <li><img src="https://sxsimg.xiaoyuanzhao.com/adservice/image/20210407100247F1dI35v6QhTR6CiBJ0.png" alt=""><i>艺电游戏</i><span><p>艺电游戏</p><i>校园招聘</i></span></li>
+      <li><img src="https://sxsimg.xiaoyuanzhao.com/adservice/image/202004141510495312INyS66O0lg3xms.png" alt=""><i>realme</i><span><p>realme</p><i>专注于提供优质智能手机产品的科技品牌</i></span></li>
+      <li><img src="https://sxsimg.xiaoyuanzhao.com/adservice/image/20220419165148IuH6PxKKNobrf63ar8.jpg" alt=""><i>ONES</i><span><p>ONES</p><i>国内领先企业级研发管理解决方案供应商</i></span></li>
+    </ul>
+    <!-- 三个链接 用浮动li实现 -->
+    <ul class="guanfang">
+      <li><img src="./images/green.png" alt=""></li>
+      <li><img src="./images/blue.png" alt=""></li>
+      <li><img src="./images/organe.png" alt=""></li>
+    </ul>
+    <!-- 职位选择 -->
+    <div class="nav">
+      <ul>
+        <li class="hot1">热门职位</li>
+        <li>最新职位</li>
+        <li>急需职位</li>
+      </ul>
+      <div class="r">
+        <span><input type="checkbox" checked><i>&nbsp;实习职位</i></span>
+        <span><input type="checkbox" checked><i>&nbsp;校招职位</i></span>
+        <a href="">查看更多职位></a>
+      </div>
+    </div>
+  </article>
+  <!-- 详细企业招聘 -->
+  <div class="main">
+    <!-- 热门职位 -->
+    <ul class="clearfix items" style="display:block">
+      <!-- 1 -->
+      <li>
+        <div class="xiaozhao"></div>
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>市场宣传专员</p><i></i><span class="money">5k-10k/月</span></div>
+          <div class="fuli"><span>地铁周边</span>
+            <span>周末双休</span>
+            <span>六险一金</span></div>
+          <div class="yaoqiu"><em><img src="">北京</em><span><img src="./images/biye.png">应届生&nbsp;|&nbsp;毕业1年内</span><i><img
+                src="./images/xueli.png">本科</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/sente.png" alt=""></div>
+          <div class="gongsi">
+            <p>森特股份</p><span>房产/家居/物业/建筑丨已上市</span></div>
+        </div>
+      </li>
+      <!-- 2 -->
+      <li>
+        <div class="xiaozhao"></div>
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>商务拓展【水羊国际】</p><i></i><span class="money">7k-9k/月</span></div>
+          <div class="fuli"><span>留学生</span>
+            <span>21-22届</span>
+            <span>周末双休</span></div>
+          <div class="yaoqiu"><em><img src="">长沙</em><span><img src="./images/biye.png">应届生&nbsp;|&nbsp;毕业1年内</span><i><img
+                src="./images/xueli.png">本科</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/2.jpg" alt=""></div>
+          <div class="gongsi">
+            <p>实习僧校招内推助手</p><span>互联网/游戏/软件丨A轮</span></div>
+        </div>
+      </li>
+      <!-- 3 -->
+      <li>
+        <div class="xiaozhao"></div>
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>石金科技-研发人员</p><i></i><span class="money">15k-20k/月</span></div>
+          <div class="fuli"><span>节日福利</span>
+            <span>定期体检</span>
+          </div>
+          <div class="yaoqiu"><em><img src="">深圳</em><span><img src="./images/biye.png">应届生</span><i><img src="./images/xueli.png">硕士</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/3.png" alt=""></div>
+          <div class="gongsi">
+            <p>高瓴联合校招</p><span>不限丨不需要融资</span></div>
+        </div>
+      </li>
+      <!-- 4 -->
+      <li>
+        <div class="xiaozhao"></div>
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>商务储备干部</p>
+            <!-- <i></i> -->
+            <span class="money">8k-13k/月</span></div>
+          <div class="fuli"><span>带薪年假</span>
+            <span>年终奖</span>
+            <span>五险一金</span></div>
+          <div class="yaoqiu"><em><img src="">上海</em><span><img src="./images/biye.png">应届生&nbsp;|&nbsp;毕业1年内</span><i><img
+                src="./images/xueli.png">本科</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/4.png" alt=""></div>
+          <div class="gongsi">
+            <p>珍岛集团</p><span>互联网/游戏/软件丨不需要融资</span></div>
+        </div>
+      </li>
+      <!-- 5 -->
+      <li>
+        <div class="xiaozhao"></div>
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>外贸业务员</p><span class="money">6k-12k/月</span></div>
+          <div class="fuli"><span>带薪年假</span>
+            <span>绩效奖金</span>
+            <span>节日福利</span></div>
+          <div class="yaoqiu"><em><img src="">深圳</em><span><img src="./images/biye.png">应届生&nbsp;|&nbsp;毕业1年内</span><i><img
+                src="./images/xueli.png">不限</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/5.png" alt=""></div>
+          <div class="gongsi">
+            <p>Cino</p><span>交通/贸易/物流丨未融资</span></div>
+        </div>
+      </li>
+      <!-- 6 -->
+      <li>
+        <!-- <div class="xiaozhao"></div> -->
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>仪表技术支持</p><span class="money">120-180/天</span></div>
+          <div class="fuli"><span>可转正实习</span>
+            <span>年终奖</span>
+          </div>
+          <div class="yaoqiu"><em><img src="">北京</em><span><img src="./images/biye.png">5天/周</span><i><img src="./images/xueli.png">6个月</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/6.jpg" alt=""></div>
+          <div class="gongsi">
+            <p>京衢科技</p><span>电子/通信/硬件丨未融资</span></div>
+        </div>
+      </li>
+      <!-- 7 -->
+      <li>
+        <!-- <div class="xiaozhao"></div> -->
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>财务分析实习生</p><span class="money">100-150/天</span></div>
+          <div class="fuli"><span>零基础实习</span>
+            <span>可转正实习</span>
+          </div>
+          <div class="yaoqiu"><em><img src="">上海</em><span><img src="./images/biye.png">4天/周</span><i><img src="./images/xueli.png">6个月</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/7.jpg" alt=""></div>
+          <div class="gongsi">
+            <p>益普索</p><span>企业服务/咨询丨已上市</span></div>
+        </div>
+      </li>
+      <!-- 8 -->
+      <li>
+        <!-- <div class="xiaozhao"></div> -->
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>人事行政实习生</p><span class="money">120/天</span></div>
+          <div class="fuli"><span>实习补贴</span>
+            <span>实习证明</span>
+            <span>商业保险</span></div>
+          <div class="yaoqiu"><em><img src="">广州</em><span><img src="./images/biye.png">4天/周</span><i><img src="./images/xueli.png">4个月</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/8.jpg" alt=""></div>
+          <div class="gongsi">
+            <p>德国辉柏嘉</p><span>快消/百货/批发/零售丨不需要融资</span></div>
+        </div>
+      </li>
+      <!-- 9 -->
+      <li>
+        <!-- <div class="xiaozhao"></div> -->
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>审计助理实习生</p><span class="money">50-80/天</span></div>
+          <div class="fuli"><span>可转正实习</span>
+            <span>暑期实习</span>
+            <span>寒假实习</span></div>
+          <div class="yaoqiu"><em><img src="">天津</em><span><img src="./images/biye.png">3天/周</span><i><img src="./images/xueli.png">3个月</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/9.jpg" alt=""></div>
+          <div class="gongsi">
+            <p>广信会计师事务所</p><span>金融/经济/投资/财会丨未融资</span></div>
+        </div>
+      </li>
+    </ul>
+    <!-- 最新职位 -->
+    <ul class="clearfix items">
+      <!-- 4 -->
+      <li>
+        <div class="xiaozhao"></div>
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>商务储备干部</p>
+            <!-- <i></i> -->
+            <span class="money">8k-13k/月</span></div>
+          <div class="fuli"><span>带薪年假</span>
+            <span>年终奖</span>
+            <span>五险一金</span></div>
+          <div class="yaoqiu"><em><img src="">上海</em><span><img src="./images/biye.png">应届生&nbsp;|&nbsp;毕业1年内</span><i><img
+                src="./images/xueli.png">本科</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/4.png" alt=""></div>
+          <div class="gongsi">
+            <p>珍岛集团</p><span>互联网/游戏/软件丨不需要融资</span></div>
+        </div>
+      </li>
+      <!-- 5 -->
+      <li>
+        <div class="xiaozhao"></div>
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>外贸业务员</p><span class="money">6k-12k/月</span></div>
+          <div class="fuli"><span>带薪年假</span>
+            <span>绩效奖金</span>
+            <span>节日福利</span></div>
+          <div class="yaoqiu"><em><img src="">深圳</em><span><img src="./images/biye.png">应届生&nbsp;|&nbsp;毕业1年内</span><i><img
+                src="./images/xueli.png">不限</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/5.png" alt=""></div>
+          <div class="gongsi">
+            <p>Cino</p><span>交通/贸易/物流丨未融资</span></div>
+        </div>
+      </li>
+      <!-- 6 -->
+      <li>
+        <!-- <div class="xiaozhao"></div> -->
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>仪表技术支持</p><span class="money">120-180/天</span></div>
+          <div class="fuli"><span>可转正实习</span>
+            <span>年终奖</span>
+          </div>
+          <div class="yaoqiu"><em><img src="">北京</em><span><img src="./images/biye.png">5天/周</span><i><img src="./images/xueli.png">6个月</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/6.jpg" alt=""></div>
+          <div class="gongsi">
+            <p>京衢科技</p><span>电子/通信/硬件丨未融资</span></div>
+        </div>
+      </li>
+      <!-- 7 -->
+      <li>
+        <!-- <div class="xiaozhao"></div> -->
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>财务分析实习生</p><span class="money">100-150/天</span></div>
+          <div class="fuli"><span>零基础实习</span>
+            <span>可转正实习</span>
+          </div>
+          <div class="yaoqiu"><em><img src="">上海</em><span><img src="./images/biye.png">4天/周</span><i><img src="./images/xueli.png">6个月</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/7.jpg" alt=""></div>
+          <div class="gongsi">
+            <p>益普索</p><span>企业服务/咨询丨已上市</span></div>
+        </div>
+      </li>
+      <!-- 8 -->
+      <li>
+        <!-- <div class="xiaozhao"></div> -->
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>人事行政实习生</p><span class="money">120/天</span></div>
+          <div class="fuli"><span>实习补贴</span>
+            <span>实习证明</span>
+            <span>商业保险</span></div>
+          <div class="yaoqiu"><em><img src="">广州</em><span><img src="./images/biye.png">4天/周</span><i><img src="./images/xueli.png">4个月</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/8.jpg" alt=""></div>
+          <div class="gongsi">
+            <p>德国辉柏嘉</p><span>快消/百货/批发/零售丨不需要融资</span></div>
+        </div>
+      </li>
+      <!-- 9 -->
+      <li>
+        <!-- <div class="xiaozhao"></div> -->
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>审计助理实习生</p><span class="money">50-80/天</span></div>
+          <div class="fuli"><span>可转正实习</span>
+            <span>暑期实习</span>
+            <span>寒假实习</span></div>
+          <div class="yaoqiu"><em><img src="">天津</em><span><img src="./images/biye.png">3天/周</span><i><img src="./images/xueli.png">3个月</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/9.jpg" alt=""></div>
+          <div class="gongsi">
+            <p>广信会计师事务所</p><span>金融/经济/投资/财会丨未融资</span></div>
+        </div>
+      </li>
+      <!-- 1 -->
+      <li>
+        <div class="xiaozhao"></div>
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>市场宣传专员</p><i></i><span class="money">5k-10k/月</span></div>
+          <div class="fuli"><span>地铁周边</span>
+            <span>周末双休</span>
+            <span>六险一金</span></div>
+          <div class="yaoqiu"><em><img src="">北京</em><span><img src="./images/biye.png">应届生&nbsp;|&nbsp;毕业1年内</span><i><img
+                src="./images/xueli.png">本科</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/sente.png" alt=""></div>
+          <div class="gongsi">
+            <p>森特股份</p><span>房产/家居/物业/建筑丨已上市</span></div>
+        </div>
+      </li>
+      <!-- 2 -->
+      <li>
+        <div class="xiaozhao"></div>
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>商务拓展【水羊国际】</p><i></i><span class="money">7k-9k/月</span></div>
+          <div class="fuli"><span>留学生</span>
+            <span>21-22届</span>
+            <span>周末双休</span></div>
+          <div class="yaoqiu"><em><img src="">长沙</em><span><img src="./images/biye.png">应届生&nbsp;|&nbsp;毕业1年内</span><i><img
+                src="./images/xueli.png">本科</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/2.jpg" alt=""></div>
+          <div class="gongsi">
+            <p>实习僧校招内推助手</p><span>互联网/游戏/软件丨A轮</span></div>
+        </div>
+      </li>
+      <!-- 3 -->
+      <li>
+        <div class="xiaozhao"></div>
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>石金科技-研发人员</p><i></i><span class="money">15k-20k/月</span></div>
+          <div class="fuli"><span>节日福利</span>
+            <span>定期体检</span>
+          </div>
+          <div class="yaoqiu"><em><img src="">深圳</em><span><img src="./images/biye.png">应届生</span><i><img src="./images/xueli.png">硕士</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/3.png" alt=""></div>
+          <div class="gongsi">
+            <p>高瓴联合校招</p><span>不限丨不需要融资</span></div>
+        </div>
+      </li>
+    </ul>
+    <!-- 急需职位 -->
+    <ul class="clearfix items">
+      <!-- 6 -->
+      <li>
+        <!-- <div class="xiaozhao"></div> -->
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>仪表技术支持</p><span class="money">120-180/天</span></div>
+          <div class="fuli"><span>可转正实习</span>
+            <span>年终奖</span>
+          </div>
+          <div class="yaoqiu"><em><img src="">北京</em><span><img src="./images/biye.png">5天/周</span><i><img src="./images/xueli.png">6个月</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/6.jpg" alt=""></div>
+          <div class="gongsi">
+            <p>京衢科技</p><span>电子/通信/硬件丨未融资</span></div>
+        </div>
+      </li>
+      <!-- 7 -->
+      <li>
+        <!-- <div class="xiaozhao"></div> -->
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>财务分析实习生</p><span class="money">100-150/天</span></div>
+          <div class="fuli"><span>零基础实习</span>
+            <span>可转正实习</span>
+          </div>
+          <div class="yaoqiu"><em><img src="">上海</em><span><img src="./images/biye.png">4天/周</span><i><img src="./images/xueli.png">6个月</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/7.jpg" alt=""></div>
+          <div class="gongsi">
+            <p>益普索</p><span>企业服务/咨询丨已上市</span></div>
+        </div>
+      </li>
+      <!-- 8 -->
+      <li>
+        <!-- <div class="xiaozhao"></div> -->
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>人事行政实习生</p><span class="money">120/天</span></div>
+          <div class="fuli"><span>实习补贴</span>
+            <span>实习证明</span>
+            <span>商业保险</span></div>
+          <div class="yaoqiu"><em><img src="">广州</em><span><img src="./images/biye.png">4天/周</span><i><img src="./images/xueli.png">4个月</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/8.jpg" alt=""></div>
+          <div class="gongsi">
+            <p>德国辉柏嘉</p><span>快消/百货/批发/零售丨不需要融资</span></div>
+        </div>
+      </li>
+      <!-- 9 -->
+      <li>
+        <!-- <div class="xiaozhao"></div> -->
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>审计助理实习生</p><span class="money">50-80/天</span></div>
+          <div class="fuli"><span>可转正实习</span>
+            <span>暑期实习</span>
+            <span>寒假实习</span></div>
+          <div class="yaoqiu"><em><img src="">天津</em><span><img src="./images/biye.png">3天/周</span><i><img src="./images/xueli.png">3个月</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/9.jpg" alt=""></div>
+          <div class="gongsi">
+            <p>广信会计师事务所</p><span>金融/经济/投资/财会丨未融资</span></div>
+        </div>
+      </li>
+      <!-- 1 -->
+      <li>
+        <div class="xiaozhao"></div>
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>市场宣传专员</p><i></i><span class="money">5k-10k/月</span></div>
+          <div class="fuli"><span>地铁周边</span>
+            <span>周末双休</span>
+            <span>六险一金</span></div>
+          <div class="yaoqiu"><em><img src="">北京</em><span><img src="./images/biye.png">应届生&nbsp;|&nbsp;毕业1年内</span><i><img
+                src="./images/xueli.png">本科</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/sente.png" alt=""></div>
+          <div class="gongsi">
+            <p>森特股份</p><span>房产/家居/物业/建筑丨已上市</span></div>
+        </div>
+      </li>
+      <!-- 2 -->
+      <li>
+        <div class="xiaozhao"></div>
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>商务拓展【水羊国际】</p><i></i><span class="money">7k-9k/月</span></div>
+          <div class="fuli"><span>留学生</span>
+            <span>21-22届</span>
+            <span>周末双休</span></div>
+          <div class="yaoqiu"><em><img src="">长沙</em><span><img src="./images/biye.png">应届生&nbsp;|&nbsp;毕业1年内</span><i><img
+                src="./images/xueli.png">本科</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/2.jpg" alt=""></div>
+          <div class="gongsi">
+            <p>实习僧校招内推助手</p><span>互联网/游戏/软件丨A轮</span></div>
+        </div>
+      </li>
+      <!-- 3 -->
+      <li>
+        <div class="xiaozhao"></div>
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>石金科技-研发人员</p><i></i><span class="money">15k-20k/月</span></div>
+          <div class="fuli"><span>节日福利</span>
+            <span>定期体检</span>
+          </div>
+          <div class="yaoqiu"><em><img src="">深圳</em><span><img src="./images/biye.png">应届生</span><i><img src="./images/xueli.png">硕士</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/3.png" alt=""></div>
+          <div class="gongsi">
+            <p>高瓴联合校招</p><span>不限丨不需要融资</span></div>
+        </div>
+      </li>
+      <!-- 4 -->
+      <li>
+        <div class="xiaozhao"></div>
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>商务储备干部</p>
+            <!-- <i></i> -->
+            <span class="money">8k-13k/月</span></div>
+          <div class="fuli"><span>带薪年假</span>
+            <span>年终奖</span>
+            <span>五险一金</span></div>
+          <div class="yaoqiu"><em><img src="">上海</em><span><img src="./images/biye.png">应届生&nbsp;|&nbsp;毕业1年内</span><i><img
+                src="./images/xueli.png">本科</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/4.png" alt=""></div>
+          <div class="gongsi">
+            <p>珍岛集团</p><span>互联网/游戏/软件丨不需要融资</span></div>
+        </div>
+      </li>
+      <!-- 5 -->
+      <li>
+        <div class="xiaozhao"></div>
+        <div class="xiangxi">
+          <div class="zhiwei">
+            <p>外贸业务员</p><span class="money">6k-12k/月</span></div>
+          <div class="fuli"><span>带薪年假</span>
+            <span>绩效奖金</span>
+            <span>节日福利</span></div>
+          <div class="yaoqiu"><em><img src="">深圳</em><span><img src="./images/biye.png">应届生&nbsp;|&nbsp;毕业1年内</span><i><img
+                src="./images/xueli.png">不限</i></div>
+        </div>
+        <div class="jituan">
+          <div class="img"><img src="./images/5.png" alt=""></div>
+          <div class="gongsi">
+            <p>Cino</p><span>交通/贸易/物流丨未融资</span></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!-- 点击按钮加载更多，没有接口返回响应数据 -->
+  <div class="more">
+    <button>更多职位</button>
+  </div>
+  <!-- 底部区域 flex布局 dl -->
+  <footer>
+    <div class="footer">
+      <dl>
+        <dt>产品服务</dt>
+        <dd>找实习</dd>
+        <dd>找校招</dd>
+        <dd>看空宣</dd>
+        <dd>职前教育</dd>
+      </dl>
+      <dl>
+        <dt>旗下产品</dt>
+        <dd>实习僧</dd>
+        <dd>实习僧教育</dd>
+        <dd>实习僧TV</dd>
+        <dd>前辈学院</dd>
+      </dl>
+      <dl>
+        <dt>关于我们</dt>
+        <dd>了解我们</dd>
+        <dd>加入我们</dd>
+      </dl>
+      <dl>
+        <dt>联系我们</dt>
+        <dd>实习僧微博</dd>
+        <dd>实习僧公众号</dd>
+        <dd>客户服务</dd>
+        <dd>商务合作</dd>
+      </dl>
+      <dl>
+        <dt>下载APP</dt>
+        <dd></dd>
+        <dd></dd>
+      </dl>
+    </div>
+    <div class="text">
+      <div class="text_font">
+        <i>©2015-2022 实习僧</i>
+        <a href="">蜀ICP备13010980号</a>
+        <a href="">联系我们：sxs@shixiseng.com</a>
+      </div>
+      <div class="text_special">
+        <span>成都萌想科技有限责任公司版权所有 中国专注实习、校招垂直招聘平台</span>
+      </div>
+      <div class="text_bottom">
+        <img src="./images/text.bottom.png" alt="">
+      </div>
+    </div>
+  </footer>
+  <!-- <script src="./js/animate.js"></script> -->
+  <script src="./js/index.js"></script>
+
+</body>
+<!--  -->
+<!--  -->
+
+</html>
